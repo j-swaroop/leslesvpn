@@ -1,0 +1,92 @@
+.testimonial-container{
+    margin-top: 18vh;
+}
+.testimonial-title{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.testimonial-text{
+    color: #202020;
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .testimonial-text{
+        font-size: 17px;
+    }
+    .testimonial-title{
+        font-size: 28px;
+    }
+}
+.review-container{
+    border: 2px solid #bab9b9;
+    border-radius: 12px;
+    height: 235px;
+    width: 350px;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 25px;
+    padding-top: 30px;
+}
+.person-img{
+    width: 50px;
+    height: 50px;
+}
+.person-name{
+    color: black;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.person-text{
+    color: #202020;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+.rating{
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-top: 5px;
+}
+.star{
+    color: rgb(255, 179, 0);
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+.person-review{
+    color: #070707;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+@media (max-width: 400px){
+    .person-name{
+        font-size: 13px;
+    }
+    .person-text{
+        font-size: 11px;
+    }
+    .person-img{
+        height: 40px;
+        width: 40px;
+        
+    }
+    .person-review{
+        font-size: 12px;
+    }
+    .star{
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    .rating{
+        font-size: 14px;
+    }
+}

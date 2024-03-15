@@ -1,0 +1,60 @@
+.subscribe-card{
+    margin-top: 20vh;
+    border-radius: 20px;
+    border: 1px solid #f3f1f1;
+}
+.subscribe-title{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.subscribe-text{
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #202020;
+}
+.subscribe-btn{
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    background-color: #f53838;
+    border: none;
+    border-radius: 12px;
+    height: 55px;
+    width: 250px;
+}
+.subscribe-btn:hover{
+    background-color: black;
+    transition: 0.5s ease-in;
+    
+}
+@media (max-width: 776px) {
+    .subscribe-card{
+        width: 85%;
+    }
+    .subscribe-btn{
+        margin: auto;
+        margin-top: 0;
+    }
+    .subscribe-text{
+        margin-bottom: 0;
+    }
+     
+    
+}
+@media (max-width: 576px) {
+    .subscribe-text{
+        font-size: 15px;
+    }
+    .subscribe-title{
+        font-size: 20px;
+        
+    }
+    .subscribe-btn{
+        height: 45px;
+        width: 180px;
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,31 @@
+.global-network{
+    margin-top: 20vh;
+    background-color: rgb(248, 248, 249);
+    padding-top: 30px;
+}
+.golbal-netword-title{
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.golbal-netword-text{
+    color: #202020;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.global-highlight{
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    .golbal-netword-title{
+        font-size: 28px;
+    }
+    .golbal-netword-text{
+        font-size: 16px;
+    }
+}

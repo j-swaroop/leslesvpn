@@ -1,0 +1,70 @@
+.help-container{
+    margin-top: 20vh;
+}
+.lasles-img{
+    width: 160px;
+    height: 80px;
+    margin: auto;
+    margin-bottom: 0;
+}
+.description{
+    text-align: center;
+    color: black;
+    font-family: 'Roboto';
+}
+.help-icons-container{
+    margin: auto;
+}
+.help-icon{
+    color: #f53838;
+    border: 1px solid #f53838;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+.help-icon:hover{
+    transition: .5s ease-in;
+    background-color: #f53838;
+    color: white;
+}
+.help-list-container{
+    list-style: none;
+    padding-left: 0;
+    width: 30%;
+
+}
+@media (max-width: 576px) {
+    .help-list-container{
+        width: 50%;
+    }
+}
+.help-list-title{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 14px;
+}
+.help-list-item{
+    color: #202020;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-bottom: 12px;
+}
+.help-list-item:hover{
+    color: #f53838;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.help-lists-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: auto;
+    width: 95%;
+    flex-wrap: wrap;
+
+}

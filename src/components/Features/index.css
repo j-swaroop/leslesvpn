@@ -1,0 +1,41 @@
+.custom-list{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #202020;
+
+}
+
+.features-heading{
+    font-family: 'Roboto';
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.features-text{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #202020;
+}
+@media (max-width: 576px) {
+    .features-heading{
+        text-align: center;
+    }
+    
+}
+@media (min-width: 765px) {
+    .features-container{
+        margin-bottom: 18vh;
+    }
+}
+@media (max-width: 906px){
+    .features-heading{
+        font-size: 28px;
+    }
+    .features-text{
+        font-size: 17px;
+    }
+    .features-list{
+        font-size: 17px;
+    }
+
+}

@@ -1,0 +1,87 @@
+
+.pricing-heading{
+    font-size: 38px;
+    font-family: 'Roboto';
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.pricing-text{
+    font-size: 19px;
+    font-family: 'Roboto';
+    color: #202020;
+    text-align: center;
+}
+@media (max-width: 576px) {
+    .pricing-text{
+        font-size: 17px;
+    }
+}
+.choose-plan-container{
+    border: 1px solid #adaeaf;
+    border-radius: 14px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    
+}
+.plan-text{
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 22px;
+}
+.custom-plan-list{
+    color: #000000 !important;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Roboto';
+}
+.tick-img{
+    height: 18px;
+    width: 18px;
+    margin-top: 5px;
+    
+}
+@media (max-width: 776px){
+    .choose-plan-container{
+        width: 80%;
+    }
+}
+.price-text{
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: #000000;
+    font-weight: bold;
+}
+.price-btn{
+    height: 45px;
+    width: 160px;
+    border-radius: 30px;
+    color: #f53838;
+    border: 2px solid #f53838;
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 1px;
+    font-family: 'Roboto';
+}
+.price-btn:hover{
+    color: white;
+    background-color: #f53838;
+    transition: 0.5s ease-in;
+
+}
+@media (max-width: 430px) {
+    .custom-plan-list{
+        font-size: 14px;
+    }
+}
+.custom-price-style{
+    color: #807e7e !important;
+    font-weight: 500;
+}
