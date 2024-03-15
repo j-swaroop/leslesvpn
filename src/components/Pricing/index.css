@@ -80,6 +80,9 @@
     .custom-plan-list{
         font-size: 14px;
     }
+    .choose-plan-container{
+        width: 90%;
+    }
 }
 .custom-price-style{
     color: #807e7e !important;
